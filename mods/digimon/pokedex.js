@@ -3,12 +3,12 @@
 'use strict';
 
 exports.BattlePokedex = {
-	botamon: {
-		num: -301,
+	pyukumuku: {
+		inherit: true,
 		species: "Botamon",
 		types: ["Fire"],
 		baseStats: {
-			hp: 350,
+			hp: 35,
 			atk: 100,
 			def: 50,
 			spa: 100,
@@ -18,16 +18,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 2.3,
 		color: "Black",
 		evos: ["Koromon", "Sukamon"],
 	},
-	poyomon: {
-		num: -302,
+	vanillite: {
+		inherit: true,
 		species: "Poyomon",
 		types: ["Air"],
 		baseStats: {
-			hp: 350,
+			hp: 35,
 			atk: 100,
 			def: 100,
 			spa: 100,
@@ -37,16 +38,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 2.3,
 		color: "White",
 		evos: ["Tokomon", "Sukamon"],
 	},
-	punimon: {
-		num: -303,
+	darumaka: {
+		inherit: true,
 		species: "Punimon",
 		types: ["Air"],
 		baseStats: {
-			hp: 350,
+			hp: 35,
 			atk: 50,
 			def: 100,
 			spa: 50,
@@ -56,16 +58,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 2.3,
 		color: "Red",
 		evos: ["Tsunomon", "Sukamon"],
 	},
-	yuramon: {
-		num: -304,
+	cascoon: {
+		inherit: true,
 		species: "Yuramon",
 		types: ["Earth"],
 		baseStats: {
-			hp: 550,
+			hp: 55,
 			atk: 50,
 			def: 50,
 			spa: 50,
@@ -75,17 +78,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 2.3,
 		color: "White",
 		evos: ["Tanemon", "Sukamon"],
 	},
 	//In-Training, 100% Ready/
-	koromon: {
-		num: -305,
+	igglybuff: {
+		inherit: true,
 		species: "Koromon",
 		types: ["Fire", "Battle"],
 		baseStats: {
-			hp: 500,
+			hp: 50,
 			atk: 100,
 			def: 50,
 			spa: 100,
@@ -95,17 +99,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 4.5,
 		color: "Pink",
 		evos: ["Agumon", "Gabumon", "Kunemon", "Sukamon"],
 		prevo: ["Botamon"],
 	},
-	tokomon: {
-		num: -306,
+	silcoon: {
+		inherit: true,
 		species: "Tokomon",
 		types: ["Air", "Battle"],
 		baseStats: {
-			hp: 500,
+			hp: 50,
 			atk: 100,
 			def: 100,
 			spa: 100,
@@ -115,17 +120,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 4.5,
 		color: "White",
 		evos: ["Patamon", "Biyomon", "Kunemon", "Sukamon"],
 		prevos: ["Poyomon"],
 	},
-	tsunomon: {
-		num: -307,
+	swinub: {
+		inherit: true,
 		species: "Tsunomon",
 		types: ["Air", "Ice"],
 		baseStats: {
-			hp: 500,
+			hp: 50,
 			atk: 50,
 			def: 100,
 			spa: 50,
@@ -135,17 +141,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 4.5,
 		color: "Brown",
 		evos: ["Elecmon", "Penguinmon", "Kunemon", "Sukamon"],
 		prevos: ["Punimon"],
 	},
-	tanemon: {
-		num: -308,
+	sunkern: {
+		inherit: true,
 		species: "Tanemon",
 		types: ["Earth", "Ice"],
 		baseStats: {
-			hp: 700,
+			hp: 70,
 			atk: 50,
 			def: 50,
 			spa: 50,
@@ -155,18 +162,19 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 4.5,
 		color: "Green",
 		evos: ["Palmon", "Betamon", "Kunemon", "Sukamon"],
 		prevos: ["Yuramon"],
 	},
 	//Rookie, 100% ready
-	agumon: {
-		num: -309,
+	helioptile: {
+		inherit: true,
 		species: "Agumon",
 		types: ["Fire", "Battle"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 200,
 			def: 100,
 			spa: 200,
@@ -176,17 +184,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Yellow",
 		evo: ["Birdramon", "Centarumon", "Greymon", "Meramon", "Monochromon", "Tyrannomon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Koromon"],
 	},
-	gabumon: {
-		num: -310,
+	rockruff: {
+		inherit: true,
 		species: "Gabumon",
 		types: ["Battle", "Fire"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 100,
 			def: 200,
 			spa: 100,
@@ -196,17 +205,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "White",
 		evo: ["Centarumon", "Drimogemon", "Garurumon", "Monochromon", "Ogremon", "Tyrannomon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Koromon"],
 	},
-	patamon: {
-		num: -311,
+	dedenne: {
+		inherit: true,
 		species: "Patamon",
 		types: ["Battle", "Air"],
 		baseStats: {
-			hp: 1200,
+			hp: 120,
 			atk: 200,
 			def: 200,
 			spa: 200,
@@ -216,17 +226,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Brown",
 		evo: ["Angemon", "Leomon", "Ogremon", "Unimon", "Ogremon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Tokomon"],
 	},
-	elecmon: {
-		num: -312,
+	electrike: {
+		inherit: true,
 		species: "Elecmon",
 		types: ["Air", "Battle"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 200,
 			def: 100,
 			spa: 200,
@@ -236,17 +247,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Red",
 		evo: ["Angemon", "Leomon", "Kokatorimon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Tsunomon"],
 	},
-	biyomon: {
-		num: -313,
+	oricoriopau: {
+		inherit: true,
 		species: "Biyomon",
 		types: ["Air", "Fire"],
 		baseStats: {
-			hp: 1200,
+			hp: 120,
 			atk: 150,
 			def: 100,
 			spa: 100,
@@ -256,17 +268,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Pink",
 		evo: ["Airdramon", "Birdramon", "Kabuterimon", "Kokatorimon", "Unimon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Tokomon"],
 	},
-	kunemon: {
-		num: -314,
+	weedle: {
+		inherit: true,
 		species: "Kunemon",
 		types: ["Earth", "Air"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 200,
 			def: 100,
 			spa: 200,
@@ -276,17 +289,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Yellow",
 		evo: ["Kabuterimon", "Kuwagamon", "Vegiemon"],
 		prevo: ["Koromon", "Tokomon", "Tsunomon", "Tanemon", "Sukamon"],
 	},
-	palmon: {
-		num: -315,
+	sunflora: {
+		inherit: true,
 		species: "Palmon",
 		types: ["Earth", "Ice"],
 		baseStats: {
-			hp: 1200,
+			hp: 120,
 			atk: 100,
 			def: 100,
 			spa: 100,
@@ -296,17 +310,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Green",
 		evo: ["Coelamon", "Kuwagamon", "Ninjamon", "Vegiemon", "Whamon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Tanemon"],
 	},
-	betamon: {
-		num: -316,
+	mudkip: {
+		inherit: true,
 		species: "Betamon",
 		types: ["Ice", "Air"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 100,
 			def: 200,
 			spa: 100,
@@ -316,17 +331,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Green",
 		evo: ["Coelamon", "Drimogemon", "Seadramon", "Shellmon", "Whamon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Tanemon"],
 	},
-	penguinmon: {
-		num: -317,
+	delibird: {
+		inherit: true,
 		species: "Penguinmon",
 		types: ["Ice", "Earth"],
 		baseStats: {
-			hp: 1200,
+			hp: 120,
 			atk: 100,
 			def: 200,
 			spa: 100,
@@ -336,18 +352,19 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 6.8,
 		color: "Blue",
 		evo: ["Fridgimon", "Garurumon", "Mojaymon", "Shellmon", "Whamon", "Nanimon", "Numemon", "Sukamon"],
 		prevo: ["Tsunomon"],
 	},
 	//Champion/
-	greymon: {
-		num: -318,
+	heliolisk: {
+		inherit: true,
 		species: "Greymon",
 		types: ["Fire", "Battle", "Air"],
 		baseStats: {
-			hp: 1700,
+			hp: 170,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -357,17 +374,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "Brown",
 		evo: ["MetalGreymon", "SkullGreymon", "Vademon"],
 		prevo: ["Agumon"],
 	},
-	monochromon: {
-		num: -319,
+	rhyhorn: {
+		inherit: true,
 		species: "Monochromon",
 		types: ["Fire", "Battle", "Earth"],
 		baseStats: {
-			hp: 2200,
+			hp: 220,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -377,17 +395,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 18.1,
 		color: "Gray",
 		evo: ["MetalGreymon", "MetalMamemon", "Vademon"],
 		prevo: ["Agumon", "Gabumon"],
 	},
-	ogremon: {
-		num: -320,
+	marowak: {
+		inherit: true,
 		species: "Ogremon",
 		types: ["Battle", "Fire", "Earth"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 300,
 			def: 300,
 			spa: 300,
@@ -397,17 +416,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "Green",
 		evo: ["Andromon", "Giromon", "Vademon"],
 		prevo: ["Gabumon", "Patamon"],
 	},
-	airdramon: {
-		num: -320,
+	altaria: {
+		inherit: true,
 		species: "Airdramon",
 		types: ["Air", "Fire"],
 		baseStats: {
-			hp: 1700,
+			hp: 170,
 			atk: 200,
 			def: 100,
 			spa: 200,
@@ -417,17 +437,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "Blue",
 		evo: ["Megadramon", "Phoenixmon", "Vademon"],
 		prevo: ["Biyomon"],
 	},
-	kuwagamon: {
-		num: -321,
+	buzzwole: {
+		inherit: true,
 		species: "Kuwagamon",
 		types: ["Earth", "Battle", "Air"],
 		baseStats: {
-			hp: 2200,
+			hp: 220,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -437,17 +458,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "Red",
 		evo: ["HerculesKabuterimon", "Piximon", "Vademon"],
 		prevo: ["Kunemon", "Palmon"],
 	},
-	whamon: {
-		num: -322,
+	wailord: {
+		inherit: true,
 		species: "Whamon",
 		types: ["Ice", "Earth"],
 		baseStats: {
-			hp: 2200,
+			hp: 220,
 			atk: 100,
 			def: 100,
 			spa: 100,
@@ -457,17 +479,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 18.1,
 		color: "Blue",
 		evo: ["Mamemon", "MegaSeadramon", "Vademon"],
 		prevo: ["Betamon", "Palmon", "Penguinmon"],
 	},
-	frigimon: {
-		num: -323,
+	beartic: {
+		inherit: true,
 		species: "Frigimon",
 		types: ["Ice", "Battle"],
 		baseStats: {
-			hp: 2200,
+			hp: 220,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -477,17 +500,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 18.1,
 		color: "Blue",
 		evo: ["Mamemon", "MetalMamemon", "Vademon"],
 		prevo: ["Penguinmon"],
 	},
-	nanimon: {
-		num: -323,
+	electrode: {
+		inherit: true,
 		species: "Nanimon",
 		types: ["Filth", "Battle"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 100,
 			def: 100,
 			spa: 100,
@@ -497,17 +521,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 2.3,
 		color: "Brown",
 		evo: ["Digitamamon", "Vademon"],
 		prevo: ["Agumon", "Betamon", "Biyomon", "Elecmon", "Gabumon", "Kunemon", "Palmon", "Patamon", "Penguinmon"],
 	},
-	meramon: {
-		num: -324,
+	magmar: {
+		inherit: true,
 		species: "Meramon",
 		types: ["Fire", "Battle"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -517,17 +542,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 9.1,
 		color: "Red",
 		evo: ["Andromon", "MetalGreymon", "Vademon"],
 		prevo: ["Agumon"],
 	},
-	drimogemon: {
-		num: -325,
+	excadrill: {
+		inherit: true,
 		species: "Drimogemon",
 		types: ["Battle", "Earth"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -537,17 +563,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 18.1,
 		color: "Purple",
 		evo: ["MetalGreymon", "Vademon"],
 		prevo: ["Betamon", "Gabumon"],
 	},
-	leomon: {
-		num: -326,
+	pyroar: {
+		inherit: true,
 		species: "Leomon",
 		types: ["Battle", "Air"],
 		baseStats: {
-			hp: 1700,
+			hp: 170,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -557,17 +584,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 9.1,
 		color: "Yellow",
 		evo: ["Andromon", "Mamemon", "Vademon"],
 		prevo: ["Elecmon", "Patamon"],
 	},
-	kokatorimon: {
-		num: -327,
+	combusken: {
+		inherit: true,
 		species: "Kokatorimon",
 		types: ["Air", "Battle"],
 		baseStats: {
-			hp: 1700,
+			hp: 170,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -577,17 +605,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "White",
 		evo: ["Andromon", "Mamemon", "Vademon"],
 		prevo: ["Elecmon", "Patamon"],
 	},
-	vegiemon: {
-		num: -328,
+	carnivine: {
+		inherit: true,
 		species: "Vegiemon",
 		types: ["Earth", "Ice"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -597,17 +626,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 4.5,
 		color: "Green",
 		evo: ["Piximon", "Vademon"],
 		prevo: ["Kunemon", "Palmon"],
 	},
-	shellmon: {
-		num: -329,
+	crustle: {
+		inherit: true,
 		species: "Shellmon",
 		types: ["Ice", "Earth"],
 		baseStats: {
-			hp: 2200,
+			hp: 220,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -617,17 +647,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 18.1,
 		color: "Pink",
 		evo: ["MegaSeadramon", "HerculesKabuterimon", "Vademon"],
 		prevo: ["Betamon", "Pengiunmon"],
 	},
-	mojyamon: {
-		num: -330,
+	vigoroth: {
+		inherit: true,
 		species: "Mojyamon",
 		types: ["Ice", "Battle", "Earth"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -637,17 +668,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 9.1,
 		color: "White",
 		evo: ["Mamemon", "SkullGreymon", "Vademon"],
 		prevo: ["Penguinmon"],
 	},
-	birdramon: {
-		num: -331,
+	moltres: {
+		inherit: true,
 		species: "Birdramon",
 		types: ["Fire", "Air"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -657,17 +689,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 9.1,
 		color: "Red",
 		evo: ["Phoenixmon", "Vademon"],
 		prevo: ["Agumon", "Biyomon"],
 	},
-	tyrannomon: {
-		num: -332,
+	tyrantrum: {
+		inherit: true,
 		species: "Tyrannomon",
 		types: ["Fire", "Battle"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 300,
 			def: 300,
 			spa: 300,
@@ -677,17 +710,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		color: "Red",
 		weightkg: 13.6,
 		prevo: ["Agumon", "Gabumon", "Patamon"],
 		evo: ["MetalGreymon", "Megadramon", "Vademon"],
 	},
-	angemon: {
-		num: -333,
+	togetic: {
+		inherit: true,
 		species: "Angemon",
 		types: ["Air", "Battle"],
 		baseStats: {
-			hp: 1700,
+			hp: 170,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -697,17 +731,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 9.1,
 		color: "White",
 		prevo: ["Elecmon", "Patamon"],
 		evo: ["Andromon", "Devimon", "Phoenixmon", "Vademon"],
 	},
-	unimon: {
-		num: -334,
+	rapidash: {
+		inherit: true,
 		species: "Unimon",
 		types: ["Air", "Battle"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -717,17 +752,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "White",
 		prevo: ["Biyomon", "Patamon"],
 		evo: ["Giromon", "Phoenixmon", "Vademon"],
 	},
-	ninjamon: {
-		num: -335,
+	accelgor: {
+		inherit: true,
 		species: "Ninjamon",
 		types: ["Earth", "Battle", "Fire"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 150,
 			def: 150,
 			spa: 150,
@@ -737,17 +773,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 4.5,
 		color: "Red",
 		prevo: ["Palmon"],
 		evo: ["Mamemon", "Metalmamemon", "Piximon", "Vademon"],
 	},
-	coelamon: {
-		num: -336,
+	relicanth: {
+		inherit: true,
 		species: "Coelamon",
 		types: ["Ice", "Earth"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -757,17 +794,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "White",
 		prevo: ["Betamon", "Palmon"],
 		evo: ["MegaSeadramon", "Vademon"],
 	},
-	numemon: {
-		num: -337,
+	muk: {
+		inherit: true,
 		species: "Numemon",
 		types: ["Filth"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 100,
 			def: 100,
 			spa: 100,
@@ -777,17 +815,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 2.3,
 		color: "Green",
 		prevo: ["Agumon", "Betamon", "Biyomon", "Elecmon", "Gabumon", "Kunemon", "Palmon", "Patamon", "Penguinmon"],
 		evo: ["Monzemon", "Vademon"],
 	},
-	centarumon: {
-		num: -338,
+	mudsdale: {
+		inherit: true,
 		species: "Centarumon",
 		types: ["Fire", "Battle"],
 		baseStats: {
-			hp: 1700,
+			hp: 170,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -797,17 +836,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "Brown",
 		prevo: ["Agumon", "Gabumon"],
 		evo: ["Andromon", "Giromon", "Vademon"],
 	},
-	devimon: {
-		num: -339,
+	banette: {
+		inherit: true,
 		species: "Devimon",
 		types: ["Battle", "Air", "Ice"],
 		baseStats: {
-			hp: 1700,
+			hp: 170,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -817,17 +857,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 9.1,
 		color: "Black",
 		prevo: ["Angemon"],
 		evo: ["Megadramon", "SkullGreymon", "Vademon"],
 	},
-	bakemon: {
-		num: -340,
+	mimikyu: {
+		inherit: true,
 		species: "Bakemon",
 		types: ["Air", "Ice"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 170,
 			def: 170,
 			spa: 170,
@@ -837,17 +878,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 9.1,
 		color: "White",
 		prevo: ["Agumon", "Betamon", "Biyomon", "Elecmon", "Gabumon", "Kunemon", "Palmon", "Patamon", "Penguinmon"],
 		evo: ["SkullGreymon", "Giromon", "Vademon"],
 	},
-	kabuterimon: {
-		num: -341,
+	heracross: {
+		inherit: true,
 		species: "Kabuterimon",
 		types: ["Earth", "Fire", "Air"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 300,
 			def: 100,
 			spa: 300,
@@ -857,17 +899,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "Blue",
 		prevo: ["Biyomon", "Kunemon"],
 		evo: ["HerculesKabuterimon", "MetalMamemon", "Vademon"],
 	},
-	seadramon: {
-		num: -342,
+	dragonair: {
+		inherit: true,
 		species: "Seadramon",
 		types: ["Ice", "Earth", "Fire"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -877,17 +920,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "Blue",
 		prevo: ["Betamon"],
 		evo: ["MegaSeadramon", "Megadramon", "Vademon"],
 	},
-	garurumon: {
-		num: -343,
+	lycanroc: {
+		inherit: true,
 		species: "Garurumon",
 		types: ["Ice", "Fire", "Battle"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 100,
 			def: 300,
 			spa: 100,
@@ -897,17 +941,18 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		weightkg: 13.6,
 		color: "White",
 		prevo: ["Gabumon", "Penguinmon"],
 		evo: ["MegaSeadramon", "SkullGreymon", "Vademon"],
 	},
-	sukamon: {
-		num: -343,
+	garbodor: {
+		inherit: true,
 		species: "Sukamon",
 		types: ["Filth"],
 		baseStats: {
-			hp: 1500,
+			hp: 150,
 			atk: 100,
 			def: 100,
 			spa: 100,
@@ -917,18 +962,19 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		weightkg: 2.3,
 		color: "Yellow",
 		prevo: ["Agumon", "Betamon", "Biyomon", "Elecmon", "Gabumon", "Kunemon", "Palmon", "Patamon", "Penguinmon"],
 		evo: ["Etemon", "Vademon"],
 	},
 	//Ultimate Digimon
-	metalgreymon: {
-		num: -344,
+	druddigon: {
+		inherit: true,
 		species: "MetalGreymon",
 		types: ["Mech", "Fire", "Battle"],
 		baseStats: {
-			hp: 4000,
+			hp: 400,
 			atk: 500,
 			def: 500,
 			spa: 500,
@@ -938,16 +984,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		color: "Purple",
 		weightkg: 22.7,
 		prevos: ["Greymon", "Monochromon"],
 	},
-	skullgreymon: {
-		num: -345,
+	aggron: {
+		inherit: true,
 		species: "SkullGreymon",
 		types: ["Battle", "Ice", "Mech"],
 		baseStats: {
-			hp: 4000,
+			hp: 400,
 			atk: 400,
 			def: 400,
 			spa: 400,
@@ -957,16 +1004,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		color: "White",
 		weightkg: 13.6,
 		prevos: ["Bakemon", "Devimon", "Garurumon", "Greymon", "Mojyamon"],
 	},
-	giromon: {
-		num: -346,
+	pawniard: {
+		inherit: true,
 		species: "Giromon",
 		types: ["Mech", "Air", "Battle"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 400,
 			def: 100,
 			spa: 400,
@@ -976,16 +1024,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		color: "Purple",
 		weightkg: 2.3,
 		prevos: ["Bakemon", "Centarumon", "Ogremon", "Unimon"],
 	},
-	herculeskabuterimon: {
-		num: -347,
+	pinsirmega: {
+		inherit: true,
 		species: "HerculesKabuterimon",
 		types: ["Earth", "Battle", "Fire"],
 		baseStats: {
-			hp: 3000,
+			hp: 300,
 			atk: 500,
 			def: 400,
 			spa: 500,
@@ -995,16 +1044,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		color: "Yellow",
 		weightkg: 18.1,
 		prevos: ["Kabuterimon", "Kuwagamon", "Shellmon"],
 	},
-	mamemon: {
-		num: -348,
+	chingling: {
+		inherit: true,
 		species: "Mamemon",
 		types: ["Battle", "Mech"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 400,
 			def: 300,
 			spa: 400,
@@ -1014,16 +1064,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		color: "Gray",
 		weightkg: 2.3,
 		prevos: ["Frigimon", "Leomon", "Mojyamon", "Ninjamon", "Whamon"],
 	},
-	megaseadramon: {
-		num: -349,
+	gyarados: {
+		inherit: true,
 		species: "MegaSeadramon",
 		types: ["Ice", "Air"],
 		baseStats: {
-			hp: 3000,
+			hp: 300,
 			atk: 500,
 			def: 500,
 			spa: 500,
@@ -1033,16 +1084,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		color: "Red",
 		weightkg: 13.6,
 		prevos: ["Coelamon", "Garurumon", "Seadramon", "Shellmon", "Whamon"],
 	},
-	vademon: {
-		num: -350,
+	beheeyem: {
+		inherit: true,
 		species: "Vademon",
 		types: ["Mech", "Earth"],
 		baseStats: {
-			hp: 1999,
+			hp: 199,
 			atk: 199,
 			def: 199,
 			spa: 199,
@@ -1052,16 +1104,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		color: "Pink",
 		weightkg: 2.3,
 		prevos: ["Airdramon", "Angemon", "Bakemon", "Birdramon", "Centarumon", "Coelamon", "Devimon", "Drimogemon", "Frigimon", "Garurumon", "Greymon", "Kabuterimon", "Kokatorimon", "Kuwagamon", "Leomon", "Meramon", "Mojyamon", "Monochromon", "Nanimon", "Numemon", "Ogremon", "Seadramon", "Shellmon", "Sukamon", "Tyrannomon", "Unimon", "Vegiemon", "Whamon"],
 	},
-	etemon: {
-		num: -351,
+	simisear: {
+		inherit: true,
 		species: "Etemon",
 		types: ["Battle", "Air", "Filth"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 400,
 			def: 200,
 			spa: 400,
@@ -1071,16 +1124,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		color: "Brown",
 		weightkg: 6.8,
 		prevos: ["Sukamon"],
 	},
-	andromon: {
-		num: -352,
+	registeel: {
+		inherit: true,
 		species: "Andromon",
 		types: ["Mech", "Battle", "Air"],
 		baseStats: {
-			hp: 2000,
+			hp: 200,
 			atk: 200,
 			def: 400,
 			spa: 200,
@@ -1090,16 +1144,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		color: "Gray",
 		weightkg: 18.1,
 		prevos: ["Angemon", "Centarumon", "Meramon", "Ogremon"],
 	},
-	megadramon: {
-		num: -353,
+	zygarde: {
+		inherit: true,
 		species: "Megadramon",
 		types: ["Mech", "Ice", "Battle"],
 		baseStats: {
-			hp: 3000,
+			hp: 300,
 			atk: 500,
 			def: 300,
 			spa: 500,
@@ -1109,16 +1164,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		color: "Red",
 		weightkg: 24.9,
 		prevos: ["Airdramon", "Devimon", "Seadramon", "Tyrannomon"],
 	},
-	phoenixmon: {
-		num: -354,
+	hooh: {
+		inherit: true,
 		species: "Phoenixmon",
 		types: ["Air", "Fire"],
 		baseStats: {
-			hp: 5000,
+			hp: 500,
 			atk: 200,
 			def: 200,
 			spa: 200,
@@ -1128,16 +1184,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		color: "Yellow",
 		weightkg: 13.6,
 		prevos: ["Aidramon", "Angemon", "Birdramon", "Kokatorimon", "Unimon"],
 	},
-	piximon: {
-		num: -355,
+	jigglypuff: {
+		inherit: true,
 		species: "Piximon",
 		types: ["Earth", "Air"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 300,
 			def: 300,
 			spa: 300,
@@ -1147,16 +1204,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		color: "Pink",
 		weightkg: 2.3,
 		prevos: ["Kokatorimon", "Kuwagamon", "Ninjamon", "Vegiemon"],
 	},
-	metalmamemon: {
-		num: -356,
+	ferroseed: {
+		inherit: true,
 		species: "MetalMamemon",
 		types: ["Battle", "Mech"],
 		baseStats: {
-			hp: 1000,
+			hp: 100,
 			atk: 500,
 			def: 400,
 			spa: 500,
@@ -1166,16 +1224,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		color: "Gray",
 		weightkg: 4.6,
 		prevos: ["Frigimon", "Kabuterimon", "Monochromon", "Ninjamon"],
 	},
-	monzaemon: {
-		num: -357,
+	bewear: {
+		inherit: true,
 		species: "Monzaemon",
 		types: ["Battle", "Air"],
 		baseStats: {
-			hp: 3000,
+			hp: 300,
 			atk: 300,
 			def: 300,
 			spa: 300,
@@ -1185,16 +1244,17 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Vaccine",
 		},
+		inherit: true,
 		color: "Yellow",
 		weightkg: 18.1,
 		prevos: ["Numemon"],
 	},
-	digitamamon: {
-		num: -358,
+	togepi: {
+		inherit: true,
 		species: "DigiTamamon",
 		types: ["Fire", "Air", "Ice"],
 		baseStats: {
-			hp: 3000,
+			hp: 300,
 			atk: 400,
 			def: 400,
 			spa: 400,
@@ -1204,26 +1264,28 @@ exports.BattlePokedex = {
 		abilities: {
 			0: "Data",
 		},
+		inherit: true,
 		color: "White",
 		weightkg: 4.5,
 		prevos: ["Nanimon"],
 	},
 	//Mega Digimon
-	machinedramon: {
-		num: -359,
+	genesect: {
+		inherit: true,
 		species: "Machinedramon",
 		types: ["Mech", "Air", "Battle"],
 		baseStats: {
-			hp: 9400,
+			hp: 940,
 			atk: 500,
 			def: 500,
 			spa: 500,
 			spd: 500,
 			spe: 100,
-		},
+		},	
 		abilities: {
 			0: "Virus",
 		},
+		inherit: true,
 		color: "Gray",
 		weightkg: 36.3,
 	},
